@@ -34,7 +34,7 @@ export default {
         this.list = r.data
       })*/
       var v = this
-      v.$api.get('topics',null,function(r){
+      v.$api.get('/topics',null,function(r){
         v.list = r.data
       })
     }
